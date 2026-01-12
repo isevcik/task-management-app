@@ -1,0 +1,7 @@
+<h1>Tasks:</h1>
+
+@for (task of taskService.tasks(); track task.id) {
+<p>
+  {{ task.name }}
+</p>
+}
