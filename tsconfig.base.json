@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@task-management-app/shared": ["libs/shared/src/index.ts"]
+    }
+  }
+}

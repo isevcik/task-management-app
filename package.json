@@ -1,0 +1,9 @@
+{
+  "name": "task-management-app",
+  "private": true,
+  "author": "Ivan Sevcik",
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ]
+}

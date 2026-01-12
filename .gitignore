@@ -1,0 +1,90 @@
+############################
+# Node / Express
+############################
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage & test output
+coverage/
+.nyc_output/
+
+# Build output (if backend is built)
+dist/
+build/
+
+############################
+# Angular
+############################
+
+# Angular cache & build
+.angular/
+.cache/
+dist/
+out-tsc/
+
+# Angular environment files
+src/environments/environment*.ts
+
+# Angular logs
+npm-debug.log*
+yarn-error.log*
+
+############################
+# IDEs & Editors
+############################
+
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+############################
+# OS files
+############################
+
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+############################
+# Misc
+############################
+
+*.swp
+*.tmp
+*.bak
+*.orig
+
+############################
+# Optional: Angular Universal / SSR
+############################
+
+server/main.js
+server/main.js.map
+
