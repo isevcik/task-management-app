@@ -59,6 +59,7 @@ Currently, the app offers simple task management functionality. A task consists 
 - Single-user only: The app does not yet support multiple users.
 
 - Non-persistent storage: Tasks are stored in an in-memory database and are lost when the application restarts.
+- No tests
 
 ### Recommended Next Features
 
@@ -67,6 +68,7 @@ Given the limited four-hour development window, several ideas for future expansi
 - Persistent Database: Ensure data is saved across sessions.
 
 - Multi-user Support & Authentication: Allow users to create accounts and manage private tasks.
+- Test coverage
 
 - Completion Status: Add a "completed" checkmark and the ability to filter tasks by status.
 
