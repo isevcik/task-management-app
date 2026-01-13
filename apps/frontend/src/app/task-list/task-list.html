@@ -1,5 +1,6 @@
 <h1>Tasks:</h1>
+<a [routerLink]="['/new-task']">Add New Task</a>
 
 @for (task of taskService.tasks(); track task.id) {
-  <app-task-detail [task]="task"></app-task-detail>
+  <app-task-detail [task]="task" [routerLink]="['task', task.id]"></app-task-detail>
 }

@@ -1,0 +1,9 @@
+<form [formGroup]="taskForm" (ngSubmit)="saveTask()">
+  <label for="name">Task name</label>
+  <input id="name" type="text" formControlName="name" />
+
+  <label for="description">Task description</label>
+  <textarea id="description" rows="4" formControlName="description"></textarea>
+
+  <button type="submit">Save</button>
+</form>
