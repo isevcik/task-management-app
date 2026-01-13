@@ -1,0 +1,5 @@
+<h1>Tasks:</h1>
+
+@for (task of taskService.tasks(); track task.id) {
+  <app-task-detail [task]="task"></app-task-detail>
+}

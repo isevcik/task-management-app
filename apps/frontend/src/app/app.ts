@@ -1,18 +1,12 @@
-import { Component, inject } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { TaskService } from '../services/task.service';
+import { TaskList } from './task-list/task-list';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, TaskList],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
-export class App {
-  protected readonly taskService = inject(TaskService)
-
-  constructor() {
-    this.taskService.loadTasks();
-  }
-}
+export class App { }
 
