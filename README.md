@@ -47,6 +47,9 @@ cd apps/frontend && npm run start
 
 Once the both are running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
+### Monorepo
+The project was started as a monorepo, which has proven to be a beneficial choice. This structure allows DTOs to be shared seamlessly between the frontend and backend. Moreover, the implementation of new features is more streamlined since changes to both frontend & backend can be made simultaneously.
+
 ### Current State Overview
 
 Currently, the app offers simple task management functionality. A task consists of a name and an optional description. User can create an unlimited number of tasks, and existing tasks can be edited.
