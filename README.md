@@ -69,6 +69,7 @@ Given the limited four-hour development window, several ideas for future expansi
 
 - Multi-user Support & Authentication: Allow users to create accounts and manage private tasks.
 - Test coverage
+- Dockerization
 
 - Completion Status: Add a "completed" checkmark and the ability to filter tasks by status.
 
