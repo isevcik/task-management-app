@@ -1,7 +1,5 @@
 ## Task Management App built with Angular and Node.js
 
-![Screenshot](https://github.com/isevcik/task-management-app/blob/main/screenshot.png?raw=true)
-
 ### Installation & Running the app
 
 ### Prerequisites
